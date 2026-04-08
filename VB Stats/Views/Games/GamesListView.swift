@@ -44,7 +44,7 @@ struct GameRowView: View {
                     .fontWeight(.semibold)
                 Text(game.isCompleted ? "Final" : "In Progress")
                     .font(.caption2)
-                    .foregroundStyle(game.isCompleted ? .secondary : .orange)
+                    .foregroundColor(game.isCompleted ? .secondary : .orange)
             }
         }
         .padding(.vertical, 4)
